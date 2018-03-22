@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <BH1>
+    <ch1>
+	    <COC>1256031</COC>
+      <COC>1272386</COC>
+      <COC>1272387</COC>
+      <COC>1272388</COC>
+      <COC>1272389</COC>
+      <COC>1272390</COC>
+
+      <COC>1264122</COC>
+      <COC>1235254</COC>
+      <COC>1235255</COC>
+      <COC>1235256</COC>
+      <COC>1235257</COC>  
+    </ch1>
+    <ch2>
+      <COC>1256032</COC>
+      <COC>1272392</COC>
+      <COC>1272393</COC>
+      <COC>1272394</COC>
+      <COC>1272395</COC>
+      <COC>1272396</COC>
+
+      <COC>1264123</COC>
+      <COC>1235261</COC>
+      <COC>1235262</COC>
+      <COC>1235263</COC>
+      <COC>1235264</COC>
+    </ch2>
+    <ch3>
+      <COC>1256033</COC>
+      <COC>1272398</COC>
+      <COC>1272399</COC>
+      <COC>1272400</COC>
+      <COC>1272401</COC>
+      <COC>1272402</COC>
+
+      <COC>1264124</COC>
+      <COC>1235268</COC>
+      <COC>1235269</COC>
+      <COC>1235270</COC>
+      <COC>1235271</COC>
+    </ch3>
+    <ch4>
+      <COC>1256034</COC>
+      <COC>1272404</COC>
+      <COC>1272405</COC>
+      <COC>1272406</COC>
+      <COC>1272407</COC>
+      <COC>1272537</COC>
+
+      <COC>1264127</COC>
+      <COC>1235276</COC>
+      <COC>1235277</COC>
+      <COC>1235278</COC>
+      <COC>1235279</COC>
+    </ch4>
+  </BH1>
+  <BH2>
+    <ch1>
+      <COC>1261571</COC>
+      <COC>1272539</COC>
+      <COC>1272540</COC>
+      <COC>1272541</COC>
+      <COC>1272542</COC>
+      <COC>1272543</COC>
+      <COC>1272544</COC>
+
+      <COC>1261575</COC>
+      <COC>1272563</COC>
+      <COC>1272564</COC>
+      <COC>1272566</COC>
+      <COC>1272567</COC>
+      <COC>1272568</COC>
+      <COC>1272569</COC>
+    </ch1>
+    <ch2>
+      <COC>1261572</COC>
+      <COC>1272545</COC>
+      <COC>1272546</COC>
+      <COC>1272547</COC>
+      <COC>1272548</COC>
+      <COC>1272549</COC>
+      <COC>1272550</COC>
+
+      <COC>1261576</COC>
+      <COC>1272570</COC>
+      <COC>1272571</COC>
+      <COC>1272572</COC>
+      <COC>1272573</COC>
+      <COC>1272574</COC>
+      <COC>1272575</COC>
+    </ch2>
+    <ch3>
+      <COC>1261573</COC>
+      <COC>1272551</COC>
+      <COC>1272552</COC>
+      <COC>1272553</COC>
+      <COC>1272554</COC>
+      <COC>1272555</COC>
+      <COC>1272556</COC>
+
+      <COC>1261577</COC>
+      <COC>1272576</COC>
+      <COC>1272577</COC>
+      <COC>1272578</COC>
+      <COC>1272579</COC>
+      <COC>1272580</COC>
+      <COC>1272581</COC>
+    </ch3>
+    <ch4>
+      <COC>1261574</COC>
+      <COC>1272557</COC>
+      <COC>1272558</COC>
+      <COC>1272559</COC>
+      <COC>1272560</COC>
+      <COC>1272561</COC>
+      <COC>1272562</COC>
+
+      <COC>1261578</COC>
+      <COC>1272582</COC>
+      <COC>1272583</COC>
+      <COC>1272584</COC>
+      <COC>1272585</COC>
+      <COC>1272586</COC>
+      <COC>1272587</COC>
+    </ch4>
+ 
+  </BH2>
+</Settings> 

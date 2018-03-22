@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90962160-0E67-4467-94F1-60B312902206}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BiBsps</RootNamespace>
+    <AssemblyName>BiBsps</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\net471\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\net471\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BiInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BiInterface.1.0.0\lib\netstandard2.0\BiInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="eDriver_IO, Version=1.0.0.18, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\eDriver.tst.shg.1.0.1\lib\net40\eDriver_IO.dll</HintPath>
+    </Reference>
+    <Reference Include="InstrumentsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\InstrumentsLib.1.0.0\lib\net471\InstrumentsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Visa, Version=5.8.0.0, Culture=neutral, PublicKeyToken=a128c98f1d7717c1, processorArchitecture=MSIL">
+      <HintPath>..\packages\nivisa.tst.shg.1.0.1\lib\net45\Ivi.Visa.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.Common, Version=15.0.40.49154, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL">
+      <HintPath>..\packages\nivisa.tst.shg.1.0.1\lib\net45\NationalInstruments.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.NI4882, Version=13.0.40.159, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL">
+      <HintPath>..\packages\nivisa.tst.shg.1.0.1\lib\net45\NationalInstruments.NI4882.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.Visa, Version=17.5.0.49152, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
+      <HintPath>..\packages\nivisa.tst.shg.1.0.1\lib\net45\NationalInstruments.Visa.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VisaNS, Version=13.0.45.167, Culture=neutral, PublicKeyToken=4febd62461bf11a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\nivisa.tst.shg.1.0.1\lib\net45\NationalInstruments.VisaNS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.12\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="SfinxLoader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SfinxLoader.1.0.7.0\lib\SfinxLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Syntune.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5f152dd1c198f5c, processorArchitecture=MSIL">
+      <HintPath>..\packages\SfinxLoader.1.0.7.0\lib\Syntune.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Syntune.Processing.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SfinxLoader.1.0.7.0\lib\Syntune.Processing.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Syntune.Updater.Ticket, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SfinxLoader.1.0.7.0\lib\Syntune.Updater.Ticket.dll</HintPath>
+    </Reference>
+    <Reference Include="Syntune.Utils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5f152dd1c198f5c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syntune.Utils.tst.shg.1.0.0\lib\net40\Syntune.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YamlDotNet, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YamlDotNet.4.3.0\lib\net45\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BiData\VbmsCmd.cs" />
+    <Compile Include="BiData\VbmsData.cs" />
+    <Compile Include="BiDrivers\BaseBoard.cs" />
+    <Compile Include="BiDrivers\Iqm\ConfigReader.cs" />
+    <Compile Include="BiDrivers\Iqm\IQMGenI.cs" />
+    <Compile Include="BiDrivers\Iqm\Keithley2200.cs" />
+    <Compile Include="BiDrivers\Iqm\OsaUtility.cs" />
+    <Compile Include="BiDrivers\Iqm\SwedenDb.cs" />
+    <Compile Include="BiDrivers\Parallel\ParallelBaseDriver.cs" />
+    <Compile Include="BiDrivers\TosaBosa\BaseDriver.cs" />
+    <Compile Include="BiDrivers\Parallel\ParallelQsfp28.cs" />
+    <Compile Include="BiDrivers\TosaBosa\Cfp4.cs" />
+    <Compile Include="BiDrivers\TosaBosa\QSFP28G.cs" />
+    <Compile Include="BiDrivers\TosaBosa\QSFP28GNoTec.cs" />
+    <Compile Include="BiDrivers\TosaBosa\InitTemp.cs" />
+    <Compile Include="BiDrivers\TosaBosa\TOSA32G.cs" />
+    <Compile Include="BiGlobalFiies\BaseCom.cs" />
+    <Compile Include="BiGlobalFiies\Calculation.cs" />
+    <Compile Include="BiGlobalFiies\Utility.cs" />
+    <Compile Include="BiLog\DriverLog.cs" />
+    <Compile Include="BiOven\BaseOvenControl.cs" />
+    <Compile Include="BiDrivers\TosaBosa\Calculation.cs" />
+    <Compile Include="BiDrivers\TosaBosa\CFP8TOSA.cs" />
+    <Compile Include="BiDrivers\TosaBosa\TestType.cs" />
+    <Compile Include="BiDrivers\TosaBosa\TOSA25G.cs" />
+    <Compile Include="BiGlobalFiies\ConfigReader.cs" />
+    <Compile Include="BiGlobalFiies\Comm.cs" />
+    <Compile Include="BiOven\OvenControl.cs" />
+    <Compile Include="BiProtocols\Parallel\BaseParallelProtocol.cs" />
+    <Compile Include="BiData\VbmsDriverAddr.cs" />
+    <Compile Include="BiInterface\IParallelProtocol.cs" />
+    <Compile Include="BiProtocols\Parallel\ParallelProtocolQsfp28g.cs" />
+    <Compile Include="BiProtocols\TosaBosa\BaseProtocols.cs" />
+    <Compile Include="BiDrivers\TosaBosa\BiConvert.cs" />
+    <Compile Include="BiProtocols\TosaBosa\IProtocol.cs" />
+    <Compile Include="BiProtocols\TosaBosa\ProtocolCfp4.cs" />
+    <Compile Include="BiProtocols\TosaBosa\ProtocolCfp8.cs" />
+    <Compile Include="BiProtocols\TosaBosa\ProtocolQsfp28g.cs" />
+    <Compile Include="BiProtocols\TosaBosa\ProtocolTosa25g.cs" />
+    <Compile Include="BiProtocols\TosaBosa\ProtocolTosa32g.cs" />
+    <Compile Include="DriversFactory.cs" />
+    <Compile Include="BiGlobalFiies\GlobalData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BiBsps.nuspec" />
+    <None Include="lib\edriver_config_boa.ini" />
+    <None Include="lib\edriver_config_sfp.ini" />
+    <None Include="lib\edriver_user.ini" />
+    <None Include="lib\InstrumentsDataSource\PowerSupply\Agilent\E3631A.yaml" />
+    <None Include="lib\InstrumentsDataSource\PowerSupply\Agilent\E3634A.yaml" />
+    <None Include="lib\InstrumentsDataSource\SwitchMeasure\Agilent\34980A.yaml" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="lib\edriverdll.dll" />
+    <None Include="lib\edriver_mem_dll.dll" />
+    <None Include="lib\edriver_posa_burning_dll.dll" />
+    <None Include="lib\edriver_security_dll.dll" />
+    <Content Include="ProductConfigs\IQMTOSA.xml" />
+    <Content Include="BiFiles\CFP8CocPnTable.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Test Software Team - Test Development - SHG</authors>
+    <owners>Finisar Corporation</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright © Finisar Corporation 2017-2018</copyright>
+    <tags>BurnIn BSP</tags>
+    <dependencies>
+      <dependency id="BiInterface" version="1.0.0" />
+      <dependency id="eDriver.tst.shg" version="1.0.1" />
+      <dependency id="SfinxLoader" version="1.0.7" />
+      <dependency id="Syntune.Utils.tst.shg" version="1.0.0" />
+      <dependency id="InstrumentsLib" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\net471\BiBsps.dll.config" target="lib\net471\BiBsps.dll.config" />
+    <file src="bin\Release\net471\BiBsps.pdb" target="lib\net471\BiBsps.pdb" />
+  </files>
+</package>

@@ -1,0 +1,16 @@
+SHGTSTSWPM-420
+
+	Setup PC as a SM.net tester:
+
+		copy C:\Program Files\Syntune
+		copy C:\Program Files (x86)\Syntune
+		create D:\SM.net\F5500_Raw_Data
+		create D:\SM.net\F5500_Raw_Data\device data
+		copy D:\SM.net\F5500_Raw_Data\Databases + Global settings + Stations
+		use \\f5500-fs\Production_test_data\F5500\F5500_Raw_Data\SM.net\3.16.3.8250\SyntuneMeasure.Net to verify if the tester is installed successfully.
+
+	SfinxLoader verification
+
+		Button SAVE will update D:\SM.net\F5500_Raw_Data\device data\TW1611\T11-111\Parameters2
+		Button LOAD will create a new file in D:\SM.net\F5500_Raw_Data\Databases\Updater\EnqueuedTickets
+
